@@ -18,6 +18,8 @@
         <TextBlock Name="totalChargeTextBox" HorizontalAlignment="Left" Margin="164,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50"/>
         <TextBlock x:Name="wrapInfo" HorizontalAlignment="Left" Height="46" Margin="18,235,0,0" TextWrapping="Wrap" Text="Total Charge after adding the wrap charge ($5):" VerticalAlignment="Top" Width="152"/>
         <TextBlock x:Name="totalWrapTextBox" HorizontalAlignment="Left" Margin="164,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50"/>
+        <TextBlock x:Name="gstInfo" HorizontalAlignment="Left" Height="46" Margin="18,278,0,0" TextWrapping="Wrap" Text="Total Charge after adding the wrap charge ($5):" VerticalAlignment="Top" Width="152"/>
+        <TextBlock x:Name="totalGstTextBox" HorizontalAlignment="Left" Margin="164,294,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50"/>
 
 
     </Grid>

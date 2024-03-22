@@ -39,9 +39,13 @@ namespace ProductApps
                 decimal totalCharge = cProduct.TotalPayment + 25;
                 totalChargeTextBox.Text = totalCharge.ToString();
 
-                // Calculate total wrap by adding $5 to the total payment
+                // Calculate total charge by adding $5 to the total payment
                 decimal wrapCharge = totalCharge + 5;
                 totalWrapTextBox.Text = wrapCharge.ToString();
+
+                // Calculate total charge by adding 10% to the total payment
+                decimal gstCharge = wrapCharge * 1.1m;
+                totalGstTextBox.Text = gstCharge.ToString();
 
             }
             catch (FormatException)
